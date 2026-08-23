@@ -1,0 +1,16 @@
+#BlueJ class context
+#Sun Aug 23 14:44:47 COT 2026
+comment0.target=Symbol
+comment0.text=\r\n Representa un s\u00EDmbolo definido por su color CSS y figura geom\u00E9trica.\r\n \r\n @author GonzalezM-LesmesA\r\n
+comment1.params=color
+comment1.target=Symbol(java.lang.String)
+comment1.text=\r\n Crea un s\u00EDmbolo asociando autom\u00E1ticamente una figura a un color \r\n
+comment2.params=color shapeType
+comment2.target=Symbol(java.lang.String, java.lang.String)
+comment2.text=\r\n Crea un s\u00EDmbolo con un color y una figura espec\u00EDfica\r\n
+comment3.target=java.lang.String getColor()
+comment4.target=java.lang.String getShapeType()
+comment5.params=color
+comment5.target=java.lang.String assignShapeByColor(java.lang.String)
+comment5.text=\r\n Mapea un color a una figura por defecto para su representaci\u00F3n\r\n
+numComments=6

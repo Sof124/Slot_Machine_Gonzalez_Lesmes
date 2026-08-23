@@ -1,0 +1,45 @@
+Retrospectiva: Mariana Gonzalez-Sofia Lesmes
+
+1. ¿Cuáles fueron los mini-ciclos definidos? Justifíquenlos. 
+
+Mini Ciclo 1: Revisar lo que se debe hacer y repartir roles principales. 
+Mini Ciclo 2: Crear el tragamonedas en Bluej.  
+Mini Ciclo 3: Probar el tragamonedas y verificar su correcta funcionalidad. 
+Mini Ciclo 4: Construir el diagrama de clases en Astah. 
+Mini Ciclo 5: Diagramas de secuencia de los métodos de la clase principal en Astah. 
+Mini Ciclo 6: Retrospectiva 
+Mini Ciclo 7: Subir todo a GitHub. 
+Mini Ciclo 8: Entrega en Moodle. 
+
+2. ¿Cuál es el estado actual del proyecto en términos de mini-ciclos? ¿por qué? 
+
+Terminado pues ya esta preparado para el envío. 
+
+3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes? (Horas/Hombre) 
+
+Mariana Gonzalez: 9h, Sofia Lesmes: 9h.
+
+4. ¿Cuál consideran fue el mayor logro? ¿Por qué? 
+
+Conseguir que el tragamonedas funcione y aprender nuevas cosas en Astah. 
+
+5. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo? 
+
+El tiempo, los espacios que tuvimos compartidos fueron muy reducidos asi que la mayoría de cosas nos tocó aparte y luego explicarnos entre nosotras lo que hicimos, tambiél el plazo de entrega era muy corto pues también debemos hacer el lab de DOPO y dedicarle tiempo a otras materias. 
+
+6. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados? 
+
+Nos dividimos muy bien el trabajo y lo realizamos completo. 
+Nos comprometemos a mejorar la eficiencia en futuras entregas pues en esta nos demoramos. 
+
+7. Considerando las prácticas XP incluidas en los laboratorios. ¿cuál fue la más útil? ¿por qué? 
+
+Quality Work: porque estamos creando un producto de calidad. 
+
+Pair Programming: tranajar en equipo nos ha permitido aprender de forma más eficiente. 
+
+8. ¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados. 
+
+El documento guía adjunto en Moodle. 
+Consultas pequeñas a Gemini AI. 
+Preguntas y consultas a compañeros de semestres avanzados o que estén viendo la misma materia.

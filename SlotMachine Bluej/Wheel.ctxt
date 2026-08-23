@@ -1,0 +1,28 @@
+#BlueJ class context
+#Sun Aug 23 14:44:47 COT 2026
+comment0.target=Wheel
+comment0.text=\r\n Representa una rueda con una secuencia circular de s\u00EDmbolos\r\n \r\n @author GonzalezM-LesmesA\r\n
+comment1.target=Wheel()
+comment1.text=\r\n Inicializa la rueda vac\u00EDa\r\n
+comment10.target=void adjustVisibleIndex()
+comment2.params=pos color
+comment2.target=void addSymbol(int, java.lang.String)
+comment2.text=\r\n Agrega un s\u00EDmbolo por color seg\u00FAn la posici\u00F3n indicada\r\n
+comment3.params=pos color shapeType
+comment3.target=void addSymbol(int, java.lang.String, java.lang.String)
+comment3.text=\r\n Agrega un s\u00EDmbolo con color y figura en la posici\u00F3n indicada\r\n
+comment4.params=color
+comment4.target=boolean delSymbol(java.lang.String)
+comment4.text=\r\n Elimina el primer s\u00EDmbolo que coincida con el color\r\n
+comment5.params=color
+comment5.target=boolean placeSymbol(java.lang.String)
+comment5.text=\r\n Ubica la rueda en la posici\u00F3n del s\u00EDmbolo del color especificado\r\n
+comment6.target=void spin()
+comment6.text=\r\n Avanza secuencialmente un paso en la rueda\r\n
+comment7.target=Symbol getVisibleSymbol()
+comment7.text=\r\n Retorna el s\u00EDmbolo que se muestra actualmente en pantalla\r\n
+comment8.target=java.util.List getSymbols()
+comment8.text=\r\n Obtiene la lista completa de s\u00EDmbolos\r\n
+comment9.params=pos
+comment9.target=int adjustIndex(int)
+numComments=11
