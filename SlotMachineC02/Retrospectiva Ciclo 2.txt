@@ -1,0 +1,37 @@
+Retrospectiva Ciclo 2
+
+1. ¿Cuáles fueron los mini-ciclos definidos? Justifíquenlos:
+
+Mini Ciclo 1: Analizar los requisitos 9-12 (swap, lock/unlock, spin con pasos, spin con configuración) y planear el diseño de la extensión.
+Mini Ciclo 2: Implementar los cambios en Wheel y SlotMachine (lock/unlock, swap, spin(wheel, steps), spin(String[])).
+Mini Ciclo 3: Escribir y ejecutar las pruebas unitarias de SlotMachineC2Test en modo invisible.
+Mini Ciclo 4: Actualizar el diagrama de clases en Astah con los nuevos métodos.
+Mini Ciclo 5: Diseñar y ejecutar las pruebas de aceptación en BlueJ.
+Mini Ciclo 6: Redactar la retrospectiva.
+Mini Ciclo 7: Subir a GitHub y publicar en Moodle.
+
+2. ¿Cuál es el estado actual del proyecto en términos de mini-ciclos? ¿Por qué? 
+El estado actual del proyecto es de incompleto ya que no terminamos los diagramas de secuencia estipulados en la corrección anterior pero agregamos las partes del ciclo 2 
+Este es entregado antes de la fecha limite 
+
+3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes?
+Mariana González: 10h. 
+Sofía Lesmes: 10h.
+
+4. ¿Cuál consideran fue el mayor logro? ¿Por qué? 
+El mayor logro fue realizar la mayor parte del código y que nos funcione realizando la orientación a objetos ya que no lo teníamos estipulado anteriormente 
+
+5. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo? 
+El tiempo: los espacios compartidos fueron mas compartidos pero difíciles de entrelazar ya que no hay extensiones donde podamos realizar tanto el código como el astah en simultaneo por eso mismo era difícil el envió y coordinación
+y también realizando actividades externas de materias
+
+6. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados? 
+realizamos bien la organización de trabajo y nos comprometemos a entregarlo en su totalidad 
+
+7. Considerando las prácticas XP incluidas en los laboratorios, ¿cuál fue la más útil? ¿Por qué? 
+Pair Programming: trabajar en equipo nos ha permitido aprender de forma más eficiente.
+
+8. ¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados. 
+Documento guía adjunto en Moodle.
+Consultas puntuales a Gemini AI.
+Preguntas a compañeros de semestres avanzados o que estén viendo la misma materia.
