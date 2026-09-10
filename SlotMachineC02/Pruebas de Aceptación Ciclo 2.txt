@@ -1,0 +1,64 @@
+Pruebas de Aceptación — Ciclo 2
+
+Grupo G03 — GonzalezM-LesmesA
+
+
+Prueba de Aceptación #1
+
+Intercambiar y fijar ruedas (Requisitos 9 y 10)
+
+Objetivo: mostrar que al intercambiar dos ruedas (swap) el cambio se ve de inmediato, y que al fijar una rueda (lock) esta deja de girar hasta que se libera (unlock)
+
+Precondición: ninguna (configuración por defecto: 3 ruedas con red, blue, yellow)
+
+Pasos:
+
+Clic derecho sobre la clase SlotMachine → new SlotMachine().
+Clic derecho sobre el objeto → makeVisible().
+Clic derecho → spin(String[] setSymbols) con new String[]{"red","blue","yellow"}. Verificar ok() = true.
+Clic derecho → swap(1,3). Verificar ok() = true. Ver que la rueda 1 ahora muestra amarillo y la rueda 3 muestra rojo.
+Clic derecho → configuration(). Verificar que retorna ["yellow","blue","red"].
+Clic derecho → lock(2). Verificar ok() = true. Ver que la ventana de la rueda 2 se pone gris.
+Clic derecho → spin(2). Verificar ok() = false. Ver que la rueda 2 no cambia de color
+Clic derecho → unlock(2). Verificar ok() = true. Ver que la ventana de la rueda 2 vuelve a blanco
+Clic derecho → spin(2). Verificar ok() = true. Ver que la rueda 2 sí cambia de color
+
+Resultado esperado:
+
+Al hacer swap(1,3), las ruedas 1 y 3 intercambian su color visible al instante
+Mientras la rueda 2 está fija, spin(2) falla y no cambia su color
+Después de liberar la rueda 2, spin(2) sí la hace girar
+
+Criterio de aceptación: 
+- aprobado si el intercambio se ve bien y la rueda fija no se mueve hasta liberarse 
+
+- rechazado si el intercambio no se ve, si la rueda gira estando fija, o si no vuelve a girar después de liberarla
+
+Prueba de Aceptación #2
+
+Girar con número de pasos y dejar una configuración con jackpot (Requisitos 11 y 12)
+
+Objetivo: mostrar que spin(wheel, steps) mueve la rueda exactamente esa cantidad de pasos, y que spin(String[]) deja la máquina en una configuración exacta, lo cual se ve reflejado en isJackpot() y en el color del marco
+
+Precondición: ninguna (configuración por defecto)
+
+Pasos:
+
+Clic derecho sobre la clase SlotMachine → new SlotMachine().
+Clic derecho sobre el objeto → makeVisible().
+Clic derecho → spin(1, 2). Verificar ok() = true. Ver que la rueda 1 pasa de rojo a amarillo (2 pasos: red→blue→yellow).
+Clic derecho → configuration(). Verificar que la posición 1 es "yellow".
+Clic derecho → spin(String[] setSymbols) con new String[]{"blue","blue","blue"}. Verificar ok() = true. Ver que las tres ruedas quedan en azul y el marco se pone verde.
+Clic derecho → isJackpot(). Verificar que retorna true.
+Clic derecho → spin(String[] setSymbols) con new String[]{"red","blue","yellow"}. Ver que el marco vuelve a azul.
+Clic derecho → isJackpot(). Verificar que retorna false.
+
+Resultado esperado:
+
+spin(1,2) mueve la rueda 1 exactamente 2 posiciones, ni una más ni una menos.
+spin(setSymbols) deja exactamente esos colores visibles, sin importar cómo estaba antes
+El color del marco (verde o azul) y isJackpot() siempre coinciden con la configuración que se ve
+
+Criterio de aceptación: 
+- aprobado si el número de pasos es exacto y el marco/isJackpot() reflejan bien cada configuración
+- rechazado si el número de pasos no coincide, o si el marco/isJackpot() no cambian como deberían

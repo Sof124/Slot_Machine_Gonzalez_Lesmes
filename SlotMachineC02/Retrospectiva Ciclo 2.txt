@@ -1,0 +1,42 @@
+Retrospectiva Ciclo 2
+
+1. ¿Cuáles fueron los mini-ciclos definidos? Justifíquenlos.
+
+Mini Ciclo 1: Analizar los requisitos 9-12 (swap, lock/unlock, spin con pasos, spin con configuración) y planear el diseño de la extensión.
+Mini Ciclo 2: Implementar los cambios en Wheel y SlotMachine (lock/unlock, swap, spin(wheel, steps), spin(String[])).
+Mini Ciclo 3: Escribir y ejecutar las pruebas unitarias de SlotMachineC2Test en modo invisible.
+Mini Ciclo 4: Actualizar el diagrama de clases y los diagramas de secuencia en Astah con los nuevos métodos.
+Mini Ciclo 5: Diseñar y ejecutar las pruebas de aceptación en BlueJ.
+Mini Ciclo 6: Redactar la retrospectiva.
+Mini Ciclo 7: Subir a GitHub y publicar en Moodle.
+
+2. ¿Cuál es el estado actual del proyecto en términos de mini-ciclos? ¿Por qué? 
+
+Terminado: los 7 mini-ciclos se completaron, incluyendo los diagramas de secuencia que habían quedado pendientes de la corrección anterior, además de toda la extensión del ciclo 2. Se entrega antes de la fecha límite.
+
+3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes? 
+
+Mariana González: 12h
+Sofía Lesmes: 12h
+
+4. ¿Cuál consideran fue el mayor logro? ¿Por qué? 
+
+Realizar la mayor parte del código y lograr que funcionara aplicando correctamente la orientación a objetos, algo que no teníamos estipulado con claridad anteriormente.
+
+5. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+
+El tiempo: aunque tuvieron más espacios compartidos, fueron difíciles de aprovechar porque no contaban con herramientas que permitieran trabajar el código y Astah en simultáneo, lo que complicaba el envío y la coordinación. A esto se sumaron actividades de otras materias. Lo resolvieron dividiendo tareas y sincronizando avances en los espacios comunes que sí lograbamos coordinar.
+
+6. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados? 
+
+Realizamos bien la organización del trabajo. nos comprometemos a seguir entregando el proyecto en su totalidad y a mejorar la coordinación de tiempos entre código y diseño.
+
+7. Considerando las prácticas XP incluidas en los laboratorios, ¿cuál fue la más útil? ¿Por qué? 
+
+Pair Programming: trabajar en equipo les ha permitido aprender de forma más eficiente.
+
+8. ¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados.
+
+Documento guía adjunto en Moodle.
+Consultas puntuales a Gemini AI.
+Preguntas a compañeros de semestres avanzados o que estén viendo la misma materia.
