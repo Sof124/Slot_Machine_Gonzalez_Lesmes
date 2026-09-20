@@ -1,0 +1,40 @@
+Retrospectiva Ciclo 3
+1. ¿Cuáles fueron los mini-ciclos Justifíquenlos.
+
+Mini Ciclo 1: Analizar los nuevos requisitos 13, 14 y 15 (constructor SlotMachine(n), método solve(n) y simulate(n)) y definir la estrategia para la resolución del problema de la maratón.   
+Mini Ciclo 2: Implementar el constructor de la extensión SlotMachine(n) en la clase base.   
+Mini Ciclo 3: Crear e implementar la clase SlotMachineContest con la lógica de solve (modo invisible y usando solo los métodos permitidos) y la simulación visual en simulate.   
+Mini Ciclo 4: Diseñar e implementar las pruebas unitarias en SlotMachineContestTest y las pruebas compartidas SlotMachineContestCTest.   
+Mini Ciclo 5: Actualizar el diagrama de clases y los diagramas de secuencia en Astah incluyendo la nueva clase SlotMachineContest y sus interacciones.   
+Mini Ciclo 6: Preparar y validar las 2 pruebas de aceptación para la presentación.   
+Mini Ciclo 7: Redactar el documento de retrospectiva acumulado y publicar los productos finales en GitHub y el archivo .txt en Moodle.   
+
+2. ¿Cuál es el estado actual del proyecto en términos de mini-ciclos? ¿Por qué?
+
+Terminado: Los 7 mini-ciclos planificados se completaron al 100%. Se logró resolver el problema de la maratón cumpliendo con las restricciones del uso de la máquina como testing tool y simulador visual, así como la entrega de la documentación en Astah y Moodle dentro del plazo.   
+
+3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes?
+Mariana González: 10h
+Sofía Lesmes: 10h
+
+4. ¿Cuál consideran fue el mayor logro? ¿Por qué?
+
+Lograr la integración correcta del problema de la maratón dentro de la arquitectura orientada a objetos sin romper los principios del diseño, asegurando que solve operara de forma invisible como herramienta de prueba y simulate realizara la representación visual adecuadamente.   
+
+5. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+
+Garantizar que el algoritmo de solve funcionara de manera eficiente sin generar bucles infinitos ni demoras en la interfaz visual. Lo resolvimos asegurando el control estricto del estado invisible de la máquina durante la ejecución del algoritmo y ajustando las condiciones de parada con las herramientas permitidas (distinctSymbols()).   
+
+6. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados?
+
+Mejoramos significativamente la velocidad de sincronización entre el desarrollo del código en Java y la diagramación simultánea en Astah. 
+Nos comprometemos a mantener esta fluidez de trabajo colaborativo para las entregas finales.   
+
+7. Considerando las prácticas XP incluidas en los laboratorios, ¿cuál fue la más útil? ¿Por qué?
+
+Test-Driven Development (TDD) y Pair Programming: La combinación de programar en pareja junto con el diseño previo de casos de prueba (SlotMachineContestTest) nos permitió detectar fallos de lógica antes de integrar el módulo completo.   
+
+8. ¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados.
+
+Documento guía del proyecto: Escuela Colombiana de Ingeniería Julio Garavito. (2026). Proyecto Inicial 2026-2: Ciclo No. 3/4 - Refactoring y Extensión. (La más útil para asegurar el cumplimiento de requisitos y restricciones).   
+Consultas de apoyo: Gemini AI (Asistencia en estructuración de diagramas de secuencia UML y optimización de pruebas).
