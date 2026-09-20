@@ -1,0 +1,27 @@
+#BlueJ class context
+#Sun Sep 20 10:50:56 COT 2026
+comment0.target=Shapes
+comment0.text=\r\n Write a description of class shapes here.\r\n \r\n @author  \r\n @version \r\n
+comment1.params=x y color
+comment1.target=Shapes(int, int, java.lang.String)
+comment10.target=void moveUp()
+comment11.target=void moveDown()
+comment12.params=distance
+comment12.target=void moveHorizontal(int)
+comment13.params=distance
+comment13.target=void moveVertical(int)
+comment14.params=distance
+comment14.target=void slowMoveHorizontal(int)
+comment15.params=distance
+comment15.target=void slowMoveVertical(int)
+comment16.params=newColor
+comment16.target=void changeColor(java.lang.String)
+comment2.target=Shapes()
+comment3.target=java.awt.Shape getShape()
+comment4.target=void draw()
+comment5.target=void erase()
+comment6.target=void makeVisible()
+comment7.target=void makeInvisible()
+comment8.target=void moveRight()
+comment9.target=void moveLeft()
+numComments=17

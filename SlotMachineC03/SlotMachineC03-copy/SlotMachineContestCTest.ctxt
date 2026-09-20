@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sun Sep 20 11:41:00 COT 2026
+comment0.target=SlotMachineContestCTest
+comment0.text=\r\n Pruebas de unidad compartidas para SlotMachineContest.\r\n
+comment1.target=void sharedTestCase1()
+comment2.target=void sharedTestCase2()
+numComments=3

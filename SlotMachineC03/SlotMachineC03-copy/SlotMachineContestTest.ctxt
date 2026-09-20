@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Sep 20 11:41:00 COT 2026
+comment0.target=SlotMachineContestTest
+comment0.text=\r\n Casos de prueba de unidad para SlotMachineContest.\r\n
+comment1.target=void setUp()
+comment2.target=void shouldSolveValidMachine()
+comment3.target=void shouldHandleSimulateWithoutErrors()
+numComments=4

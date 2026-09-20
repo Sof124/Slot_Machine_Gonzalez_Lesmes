@@ -1,0 +1,11 @@
+#BlueJ class context
+#Sun Sep 20 11:40:56 COT 2026
+comment0.target=SlotMachineContest
+comment0.text=\r\n M\u00F3dulo para solucionar y simular el problema de la marat\u00F3n Slot Machine.\r\n \r\n @author GonzalezM-LesmesA\r\n @version 1.0\r\n
+comment1.params=n
+comment1.target=int solve(int)
+comment1.text=\r\n Resuelve el problema en modo invisible de forma instant\u00E1nea.\r\n \r\n @param n n\u00FAmero de ruedas y s\u00EDmbolos\r\n @return n\u00FAmero de acciones realizadas\r\n
+comment2.params=n
+comment2.target=void simulate(int)
+comment2.text=\r\n Simula visualmente la soluci\u00F3n en modo visible.\r\n \r\n @param n n\u00FAmero de ruedas y s\u00EDmbolos\r\n
+numComments=3
